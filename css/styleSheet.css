@@ -1,0 +1,163 @@
+/*Setting up general items*/
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hubballi&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    font-family: 'Hubballi', cursive, 'Roboto', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{margin: 0px;}
+
+.logo-name {
+    font-family: 'BhuTuka Expanded One', cursive, 'Hubballi', cursive, 'Roboto', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+h4 {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.favcon{width: 15px;}
+
+.profile-pic{width: 150px;}
+
+
+
+p{color: #999999;}
+
+h1, h2, h3, h4, h5{color:#6b6b6b;}
+
+.room{width: 300px;}
+
+h5{ margin: 0; }
+
+.social-container{ margin-top: 5px; }
+
+.arrow{ width: 20px; }
+
+/*setting up the main nav*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.left-nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-nav-conatiner{
+    width: 250px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/*Setting up section one*/
+
+.page-header{
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-header-text{
+    margin: 0;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.header-p-text{
+    text-align: center;
+}
+
+/*Setting up the first picture set*/
+
+.first-picture-set{
+    height: 325px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picture-set{
+    width: 300px;
+}
+
+/*Setting up the Team Section*/
+
+.team-title{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.team-profile-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-gap: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px,1fr));
+}
+
+.team-text-container{
+    text-align: center;
+    height: 100px;
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+}
+
+.img-conatiner {
+    width: 150px;
+}
+
+.con-one{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.con-two{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.con-three{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.con-four{
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+.arrow-holder-left{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-holder-right{
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
